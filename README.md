@@ -45,3 +45,57 @@ pip install -r requirements.txt
 
 # اجرا
 python network_checker_pro.py
+
+---
+
+## 🌐 Sample Output (Demo)
+
+> ✔️ این خروجی یک نمونه است — اطلاعات واقعی شبکه نمایش داده نمی‌شود.
+
+```text
+🌐 UNIVERSAL NETWORK CHECKER PRO
+────────────────────────────────────
+
+📌 Local IP: 192.168.1.10
+📌 Network Class: Class C
+
+🔍 Checking Global Internet...
+
+➡️  Pinging DNS 8.8.8.8 ...
+   ✅ DNS reachable
+
+🌍 Testing Websites...
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐 google.com
+   📡 Ping:        ✅ OK
+   🔐 TCP 443:     ✅ OK
+   🌍 HTTP GET:    ✅ OK
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐 youtube.com
+   📡 Ping:        ❌ Fail
+   🔐 TCP 443:     ❌ Fail
+   🌍 HTTP GET:    ❌ Fail
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐 cloudflare.com
+   📡 Ping:        ✅ OK
+   🔐 TCP 443:     ✅ OK
+   🌍 HTTP GET:    ✅ OK
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐 microsoft.com
+   📡 Ping:        ❌ Blocked
+   🔐 TCP 443:     ✅ OK
+   🌍 HTTP GET:    ✅ OK
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐 hamrah.academy
+   📡 Ping:        ❌ Blocked
+   🔐 TCP 443:     ✅ OK
+   🌍 HTTP GET:    ❌ Fail
+
+────────────────────────────────────
+✔ TEST FINISHED — Developed by Milad Hadad
+────────────────────────────────────
